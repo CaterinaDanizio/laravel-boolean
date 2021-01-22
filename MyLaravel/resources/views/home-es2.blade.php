@@ -15,7 +15,7 @@
     - /holaTu2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in spagnolo -->
     
     <div class="container es">
-        <h1>Hola {{ $name }}</h1>
+        <h1>Hola {{ $nombre }}</h1>
     
     
     

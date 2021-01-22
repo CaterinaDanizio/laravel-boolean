@@ -14,14 +14,14 @@ class MainController extends Controller
     public function holaTu()
     {
         return view('home-es2', [ 
-	    'name' => 'Alejandro'
+	    'nombre' => 'Alejandro'
      ]);
     }
 
     public function holaTu2()
     {
         return view('home-es2', [ 
-	    'name' => 'Carlos'
+	    'nombre' => 'Carlos'
      ]);
     }
 }

@@ -43,6 +43,6 @@ Route::get('/holaTodos', 'MainController@hola');
 // Salutare utente per nome (variabile) in spagnolo
 Route::get('/holaTu', 'MainController@holaTu');
 
-// Salutare utente per nome (stessa variabile, stessa view, ma nome diverso) in inglese
+// Salutare utente per nome (stessa variabile, stessa view, ma nome diverso) in spagnolo
 
 Route::get('/holaTu2', 'MainController@holaTu2');
