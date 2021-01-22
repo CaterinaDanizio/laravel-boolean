@@ -9,26 +9,16 @@
 </head>
 <body>
 
-    <!-- SENZA controller:
-    - /helloAll: saluta tutti gli utenti in inglese (statico, no variabili)
-    - /helloYou: saluta utente per nome (variabile) in inglese
-    - /helloYou2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in inglese
-    CON controller:
+    <!-- CON controller:
     - /holaTodo: saluta tutti gli utenti in spagnolo
     - /holaTu: saluta utente per nome (variabile) in spagnolo
     - /holaTu2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in spagnolo -->
     
-    <div class="container">
-        <h1>Hello to you all</h1>
+    <div class="container es">
+        <h1>Hola todos</h1>
     
     
     
     
     
     </div>
-
-
-    <script src="{{ asset('js/app.js') }}">
-    </script>
-</body>
-</html>

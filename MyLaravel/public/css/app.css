@@ -1,9 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: salmon;
   color: white;
 }
 
 body .container {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+}
+
+body .en {
+  background-color: salmon;
+}
+
+body .es {
+  background-color: gold;
 }
 
